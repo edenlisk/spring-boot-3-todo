@@ -30,4 +30,10 @@ public class SayHelloController {
         return str.toString();
     }
 
+    @RequestMapping("say-hello-jsp")
+    public String sayHelloJsp() {
+        return "sayHello";
+    }
+
+
 }
