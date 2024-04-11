@@ -1,8 +1,8 @@
 package com.edenlisk.springboottodo.auth;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class AuthenticationService {
     public boolean auth(String email, String password) {
         var isEmailValid = email.equalsIgnoreCase("test@gmail.com");
